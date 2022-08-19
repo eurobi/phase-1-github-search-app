@@ -6,8 +6,37 @@
 
 #github-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
   list-style: none;
 }
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border: solid 5px black;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10%;
+  width: 600px;
+}
+
+.avatar {
+  width: 50px
+}
+
+.login {
+  margin-left: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile-link {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
